@@ -1,0 +1,27 @@
+{
+  "name": "css-flex-layout",
+  "version": "0.0.1",
+  "description": "A (temporary) solution for @angular/flex-layout problems in server-side rendering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezamirian/angular-css-flex-layout.git"
+  },
+  "keywords": [
+    "angular",
+    "flex-layout",
+    "ssr"
+  ],
+  "author": "Alireza Mirian (alireza.mirian@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirezamirian/angular-css-flex-layout/issues"
+  },
+  "homepage": "https://github.com/alirezamirian/angular-css-flex-layout#readme",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0"
+  }
+}
