@@ -19,7 +19,7 @@ directives, and all they do is to add corresponding css classes of
 instead of `FlexLayoutModule`, and add `angular-material.layouts.css` to your styles.
 
 
-#IMPORTANT
+# IMPORTANT
 This package will be published on npm and code will be added here in next few days.
 
 # Known issues:
