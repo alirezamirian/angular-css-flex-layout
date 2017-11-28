@@ -18,6 +18,11 @@ directives, and all they do is to add corresponding css classes of
 [AngularJS Material Flex Layout][ng1flex]. So you only need to import `CssFlexLayoutModule`
 instead of `FlexLayoutModule`, and add **angular-material.layouts.css** to your styles.
 
+# Installation
+```bash
+npm i angular-css-flex-layout --save
+```
+
 # Usage Example:
 
 In your module:
