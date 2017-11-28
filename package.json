@@ -27,6 +27,7 @@
     "angular-material": "^1.0.0"
   },
   "devDependencies": {
+    "@angular/core": "^4.0.0",
     "ng-packagr": "^1.6.0",
     "typescript": "^2.4.2"
   }
