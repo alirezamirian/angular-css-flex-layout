@@ -1,6 +1,6 @@
 {
   "name": "angular-css-flex-layout",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1",
   "description": "A (temporary) solution for @angular/flex-layout problems in server-side rendering",
   "main": "index.js",
   "scripts": {
