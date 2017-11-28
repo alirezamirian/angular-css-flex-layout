@@ -16,7 +16,12 @@ repo sooner or later, angular-css-flex-layout aims to have as less footprint as
 possible. Directives are implemented with selectors identical to `FlexLayoutModule` 
 directives, and all they do is to add corresponding css classes of 
 [AngularJS Material Flex Layout][ng1flex]. So you only need to import `CssFlexLayoutModule`
-instead of `FlexLayoutModule`, and add `angular-material.layouts.css` to your styles.
+instead of `FlexLayoutModule`, and add **angular-material.layouts.css** to your styles.
+
+# Installation
+```bash
+npm i angular-css-flex-layout --save
+```
 
 # Usage Example:
 
@@ -37,10 +42,21 @@ import {CssFlexLayoutModule} from 'angular-css-flex-layout';
 export class AppModule { }
 ```
 
-And in your styles (`styles.scss` if you are using angular cli):
-```
+And in your styles (**styles.scss** if you are using angular cli):
+```scss
 @import '~angular-material/modules/layouts/angular-material.layouts.css';
 ```
+
+If you are importing FlexLayoutModule in several places in your code, you 
+can create a **flex-layout-module.ts** like below and import `FlexLayoutModule`
+from it.
+
+```ts
+export {CssFlexLayoutModule as FlexLayoutModule} from 'angular-css-flex-layout';
+// export {FlexLayoutModule} from '@angular/flex-layout';
+```
+This way, you will be able to switch between original FlexLayoutModule and
+CssFlexLayoutModule with a switch of comments.
 
 # Known issues:
 - layout-wrap-* doesn't exist in AngularJS Material layout css.
