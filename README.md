@@ -64,6 +64,10 @@ CssFlexLayoutModule with a switch of comments.
   in AngularJS Material layout css.
 - fxShrink and fxGrow are not supported now.
 - fxLayoutGap is not supported, as it's not in AngularJS Material layout css.
+- `ngStyle.*`, `ngClass.*` and `src.*` are not supported as they need
+  js.
+- `fxHide`, `fxHide.*`, `fxShow`, `fxShow.*` are supported but
+  `fxHide="value"`, `fxHide.*="value"`, ... are not supported yet.
 
 
 [flex]: https://github.com/angular/flex-layout
